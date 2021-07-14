@@ -122,3 +122,22 @@ h1{
 .football img{
     margin-top: -15px;
 }
+/* Media Query */
+@media (max-width: 668px) {
+    .players {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-item img {
+      width: 120px;
+      height: 50px;
+    }
+    .football img {
+      margin-top: 10px;
+    }
+    .hero {
+      flex-direction: column;
+    }
+    .section-title {
+      margin: 5%;
+    }
+  }
