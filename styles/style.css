@@ -1,0 +1,124 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* banner */
+.header-title-top{
+    margin-bottom: 30px;
+}
+
+.fas.fa-arrow-right{
+    color: white;
+    margin-left: 10px;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    font-weight: 900;
+}
+.up{
+    margin-top: 100px;
+}
+.hero{
+    display: flex;
+    margin-bottom: 75px;
+    background-color:#0505bd;
+    transition: transform 4s;
+}
+.hero:hover .up img{
+    transform: scale(1.5);
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+}
+.section-title{
+    margin-bottom: 10%;
+    margin-top: 3%;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+/* top-players-styles */
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;   
+}
+.footer-container{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    top: 100px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-item i{
+    width: 100%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-icon i{
+    height: 30px;
+    width: 30px;
+}
+.footer-container{
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-item i{
+    width: 100%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i{
+    height: 30px;
+    width: 30px;
+}
+.footer-text p{
+    text-align: center;
+    margin-bottom: 200px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.football img{
+    margin-top: -15px;
+}
